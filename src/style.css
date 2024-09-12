@@ -1,3 +1,4 @@
+
 /* Box sizing rules */
 *,
 *::before,
@@ -28,8 +29,6 @@ ol[role='list'] {
 body {
   min-height: 100vh;
   line-height: 1.5;
-  background-image: url(img/donuts.jpg);
-  background-size: cover;
 }
 
 /* Set shorter line heights on headings and interactive elements */
@@ -74,59 +73,3 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-button {
-    font-size: xx-large;
-    padding: 10px;
-    border-radius: 999px;
-    color: white;
-    background-color: rgb(143, 132, 118, .2);
-    cursor: pointer;
-    border: 1px rgb(143, 132, 118, .5) solid;
-}
-
-button:hover {
-    background-color:rgb(143, 132, 118);
-}
-
-h1 {
-    text-align: center;
-    font-size: 90px;
-    background-color: rgb(143, 132, 118, .5);
-    color: white;
-}
-
-p{ 
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    transition: all 500ms ease;
-    margin-bottom: 70px;
-}
-
-p:hover {
-    transition: all 500 ease;
-    background-color: rgb(143, 132, 118, .5);
-    cursor: pointer;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    width: 100vw;
-}
-
-.info {
-    height: 30vh;
-    width: 30vw;
-    background-color: rgb(143, 132, 118, .6);
-    color: white;
-    text-align: center;
-}
